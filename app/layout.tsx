@@ -19,9 +19,6 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
-        {/* Explicitly cast metadata.title to a string */}
-        <title>{String(metadata.title)}</title>
-        {/* Handle null or undefined for metadata.description */}
         <meta
           name="description"
           content={metadata.description ?? "Default description"}
