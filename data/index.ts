@@ -74,7 +74,7 @@ export const projects = [
     id: 1,
     title: "ui/ux",
     des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-    img: "/p1.svg",
+    img: "/fiver_ui.svg",
 
     link: "https://www.behance.net/bubblixCO",
   },
@@ -82,7 +82,7 @@ export const projects = [
     id: 2,
     title: "data entry",
     des: "We provide accurate and efficient data entry services to input information from online sources into a clean, well-structured spreadsheet format. This service includes web research and LinkedIn data generation, making it ideal for your business needs in collecting and managing information effortlessly..",
-    img: "/p2.svg",
+    img: "/data.svg",
 
     link: "https://www.behance.net/bubblixCO",
   },
@@ -90,7 +90,7 @@ export const projects = [
     id: 3,
     title: "behance portofolio",
     des: "This is our portofolio for the Ui/Ux. You can see many StudyCase that we  make",
-    img: "/p2.svg",
+    img: "/Behance.svg",
 
     link: "https://www.behance.net/bubblixCO",
   },
@@ -197,13 +197,16 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    link: "",
   },
   {
     id: 2,
     img: "/twit.svg",
+    link: "",
   },
   {
     id: 3,
     img: "/link.svg",
+    link: "https://www.linkedin.com/company/bubblix-co/",
   },
 ];
