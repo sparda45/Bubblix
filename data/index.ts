@@ -76,7 +76,7 @@ export const projects = [
     des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
     img: "/p1.svg",
 
-    link: "/ui.earth.com",
+    link: "https://www.behance.net/bubblixCO",
   },
   {
     id: 2,
@@ -84,7 +84,7 @@ export const projects = [
     des: "We provide accurate and efficient data entry services to input information from online sources into a clean, well-structured spreadsheet format. This service includes web research and LinkedIn data generation, making it ideal for your business needs in collecting and managing information effortlessly..",
     img: "/p2.svg",
 
-    link: "/ui.yoom.com",
+    link: "https://www.behance.net/bubblixCO",
   },
   {
     id: 3,
@@ -92,7 +92,7 @@ export const projects = [
     des: "This is our portofolio for the Ui/Ux. You can see many StudyCase that we  make",
     img: "/p2.svg",
 
-    link: "/ui.yoom.com",
+    link: "https://www.behance.net/bubblixCO",
   },
 ];
 
