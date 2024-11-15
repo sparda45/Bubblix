@@ -57,7 +57,7 @@ const Hero = () => {
           />
 
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            Hi! We're bubblix a starting agency who work in data and Ui/Ux
+            Hi! We&apos;re bubblix a starting agency who work in data and Ui/Ux
             Design Field.
           </p>
 

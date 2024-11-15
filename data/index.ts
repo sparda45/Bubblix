@@ -38,7 +38,7 @@ export const gridItems = [
   },
   {
     id: 4,
-    title: "We're tech enthusiast with a passion for development.",
+    title: "We tech enthusiast with a passion for development.",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
@@ -49,7 +49,7 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently building a JS Animation library",
+    title: "Currently starting as a agency",
     description: "The Inside Scoop",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -111,7 +111,7 @@ export const testimonials = [
   },
   {
     quote:
-      "Bubblix brought our vision to life in ways we hadn’t even imagined. Their dedication to delivering quality UI/UX and intuitive design was evident in every interaction. I highly recommend Bubblix to anyone seeking impactful digital solutions.",
+      "Bubblix brought our vision to life in ways we hadnt even imagined. Their dedication to delivering quality UI/UX and intuitive design was evident in every interaction. I highly recommend Bubblix to anyone seeking impactful digital solutions.",
     name: "Michael Johnson",
     title: "Director of AlphaStream Technologies",
   },
