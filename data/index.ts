@@ -76,7 +76,7 @@ export const projects = [
     des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
     img: "/fiver_ui.svg",
 
-    link: "https://www.behance.net/bubblixCO",
+    link: "https://www.fiverr.com/bubblixstudio/do-craft-stunning-uiux-designs",
   },
   {
     id: 2,
