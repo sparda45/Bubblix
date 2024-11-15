@@ -8,7 +8,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Bubblix",
-  description: "this will be a fire",
+  description: "This will be a fire website!",
 };
 
 export default function RootLayout({
@@ -19,6 +19,14 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
+        {/* Explicitly cast metadata.title to a string */}
+        <title>{String(metadata.title)}</title>
+        {/* Handle null or undefined for metadata.description */}
+        <meta
+          name="description"
+          content={metadata.description ?? "Default description"}
+        />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="icon" href="/bubblix-logo.jpg" sizes="any" />
       </head>
       <body className={inter.className}>
@@ -28,7 +36,7 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
-          {children}
+          <main>{children}</main>
         </ThemeProvider>
       </body>
     </html>
